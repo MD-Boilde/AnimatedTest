@@ -20,13 +20,12 @@ export const ModalScreen = ({navigation}) => {
         <Button title="Show modal" onPress={toggleModal} />
         <Modal
           // animationIn="zoomInDown"
-          //         animationOut="zoomOutUp"
-          //         animationInTiming={600}
-          //         animationOutTiming={600}
-          //         backdropTransitionInTiming={600}
-          //         backdropTransitionOutTiming={600}
+          // animationOut="zoomOutUp"
+          animationInTiming={500}
+          // animationOutTiming={600}
+          // backdropTransitionInTiming={600}
+          // backdropTransitionOutTiming={600}
           //end
-
           useNativeDriver={true}
           backdropOpacity={1}
           onBackdropPress={() => {
